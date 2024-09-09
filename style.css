@@ -1,10 +1,10 @@
 :root{
-    --Branco-princípal: #FFFFFF;
-    --cinza-segundario: #c0c0c0;
-    --botao-azul: #167bf7;
-    --cor-de-fundo: #00030c;
+    --branco-principal: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --botao-azul: #167BF7;
+    --cor-de-fundo: #00030C;
     --fonte-principal: 'Inter';
-    --botao-azul-efeito: #3c92fa;
+    --botao-azul-efeito: #3c92fa;  
 }
 
 body{
@@ -23,7 +23,7 @@ body{
 .principal{
     background-image: url("img/Background.png");
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain ;
     align-items: center;
     text-align: center;
 }
@@ -36,7 +36,7 @@ body{
 
 .container__botao {
     background-color: var(--botao-azul);
-    border-radius: 5px;
+    border-radius:5px ;
     padding: 1em;
     color: var(--branco-principal);
     display: block;
@@ -44,9 +44,9 @@ body{
     margin-bottom: 1em;
 }
 
-.botao_segundario {
+.botao_secundario {
     background-color: transparent;
-    border: 2px solid var(--Branco-princípal);
+    border: 2px solid var(--branco-principal);
 }
 
 .container__aviso {
@@ -67,13 +67,13 @@ body{
     margin: 0 6em;
 }
 
-.secundario__imagem{
+.secundario__imagem {
     width: 80%;
 }
 
 .secundario {
-    align-items: center;
-    margin:0 10em;
+align-items: center;
+margin: 0 10em;
 }
 
 .descricao__titulo {
@@ -84,10 +84,10 @@ body{
 }
 
 .descricao__texto {
-    color; var(--cinza-segundario)
+    color: var(--cinza-secundario);
 }
 
-.segundario__botao {
+.secundario__botao {
     display: inline-block;
     margin-top: 1em;
 }
@@ -98,11 +98,11 @@ body{
 
 .dispositivos__lista {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     list-style-type: none;
-    margin: Sem 0;
+    margin: 5em 0;
 }
-769,99
+
 .dispositivos {
     text-align: center;
 }
@@ -120,11 +120,11 @@ body{
 .rodape {
     text-align: center;
     margin: 5em 3em;
-} 
+}
 
 .rodape__lista {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     list-style-type: none;
     margin-top: 1em;
 }
@@ -138,7 +138,7 @@ body{
 .rodape__texto {
     margin: 1em 0;
     color: var(--cinza-secundario);
-    font-size: 14px
+    font-size: 14px;
 }
 
 .lista__link a:hover {
@@ -151,5 +151,5 @@ body{
 
 .container__botao:hover {
     background-color: var(--botao-azul-efeito);
-    color: var(--color-de-fundo);
+    color: var(--cor-de-fundo);
 }
